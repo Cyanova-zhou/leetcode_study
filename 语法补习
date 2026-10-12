@@ -8,3 +8,5 @@ cash.get(key,0)+=1
 ##字典中如果这个key对应的value存在取出,否则取出0
 cash.get(key,0)
 
+##数组内部排序例如intervals = [[4,7],[1,4]]排序为intervals = [[1,4],[4,7]]
+intervals.sort(key=lambda intervals:intervals[0])
