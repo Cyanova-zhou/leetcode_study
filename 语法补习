@@ -1,0 +1,10 @@
+##构造一个二维矩阵
+mat=[[0]*n for _ in range(n)]
+
+##字典中如果这个key对应的value存在+1,否则先为0后加1
+cash={}
+cash.get(key,0)+=1
+
+##字典中如果这个key对应的value存在取出,否则取出0
+cash.get(key,0)
+
