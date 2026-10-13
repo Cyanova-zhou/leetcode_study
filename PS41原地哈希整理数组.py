@@ -16,5 +16,8 @@ class Solution:
                 return i+1
         return len(nums)+1
 
-s=Solution()
-s.firstMissingPositive([3,4,-1,1])
+
+
+if __name__=="__main__":
+    s=Solution()
+    s.firstMissingPositive([3,4,-1,1])
