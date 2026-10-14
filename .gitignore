@@ -1,0 +1,6 @@
+# JetBrains IDE (PyCharm / IntelliJ) 配置目录
+.idea/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
