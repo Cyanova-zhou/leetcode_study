@@ -10,3 +10,6 @@ cash.get(key,0)
 
 ##数组内部排序例如intervals = [[4,7],[1,4]]排序为intervals = [[1,4],[4,7]]
 intervals.sort(key=lambda intervals:intervals[0])
+
+##如果我现在是一个数组例如list=['a','b','c']想要把他转成连续的字符串
+"".join(list)
